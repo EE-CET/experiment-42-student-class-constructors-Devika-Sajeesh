@@ -26,7 +26,6 @@ public class StudentClass {
 
         String name2 = scanner.nextLine();
         int rollNo2 = scanner.nextInt();
-        scanner.nextLine();
         
         
         // TODO: Create two Student objects
