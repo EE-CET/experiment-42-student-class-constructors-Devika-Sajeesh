@@ -1,22 +1,18 @@
 import java.util.Scanner;
 
 class Student {
-   
+    String name;
+    int rollNo;
 
     // TODO: Create a parameterized constructor Student(String name, int rollNo)
-    
-        String name;
-        int rollNo;
-        
-        Student(String name, int rollNo) {
-            this.name = name;
-            this.rollNo = rollNo;
-        }
-    
-    
+    Student(String name, int rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
+    }
+
     // TODO: Create a method or use direct access to print details in the required format
     public void printDetails() {
-        System.out.println(name + " " + rollNo);
+        System.out.println("Name: " + name + " Roll: " + rollNo);
     }
 }
 
